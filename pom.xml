@@ -39,8 +39,8 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-            <urcdl>${TOMCAT_DEPLOY_URL}</urcdl>
-            <server>localhost</server>
+            <url>${TOMCAT_DEPLOY_URL}</url>
+            <server>Tomcat</server>
             <path>/myappp</path>
             <update>true</update>
           </configuration>
